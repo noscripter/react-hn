@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - nwb > karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-04-15T22:18:19.175Z'
+  'npm:lodash:20180130':
+    - nwb > babel-loader > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+    - nwb > babel-loader > babel-core > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+    - nwb > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+    - nwb > babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+    - eslint-config-jonnybuchanan > babel-eslint > babel-core > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+    - eslint-config-jonnybuchanan > babel-eslint > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+    - nwb > isparta-loader > isparta > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-04-15T22:18:19.175Z'
+  'npm:minimatch:20160620':
+    - eslint-config-jonnybuchanan > babel-eslint > babel-core > minimatch:
+        patched: '2019-04-15T22:18:19.175Z'
+    - nwb > babel-loader > babel-core > minimatch:
+        patched: '2019-04-15T22:18:19.175Z'
+  'npm:ms:20170412':
+    - nwb > karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-04-15T22:18:19.175Z'
